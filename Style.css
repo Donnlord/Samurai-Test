@@ -1,0 +1,58 @@
+ body {
+ 	background: linear-gradient(#00408D,#A952B9,#001B47);
+ 	text-align: center;
+ }
+
+.banner {
+	position: relative;
+	width: 100%;
+}
+.banner img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+.texto {
+	font-family: Impact;
+	position: absolute;
+	color: rgba(100, 42, 94, 1.0);
+	text-align: center;
+	top: 67%;
+	left: 22%;
+}
+.zoom:hover {
+	transition: 2s;
+	transform: scale(1.2);
+	transform-origin: center;
+	font-weight: bold;
+	color: rgba(169, 82, 185, 1.0);
+	color: rgba(176, 187, 222, 1.0);
+}
+h1 {
+	font-size: 60px;
+}
+h2 {
+	font-size: 60px;
+	color: rgba(255, 17, 78, 1.0);
+	text-align: center;
+	font-family: League Gothic;
+	font-weight: bold;
+}
+p {
+	font-size: 30px;
+}
+.pt {
+	font-size: 30px;
+	text-align: center;
+	color: rgba(17, 4, 88, 1.0);
+	font-weight: bold;
+}
+img {
+	border-radius: 10px;
+
+}
+.imgzoom:hover {
+    transition: 1s;
+    transform: scale(1.3);
+    transform-origin: center;
+}
