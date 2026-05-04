@@ -1,4 +1,4 @@
- body {
+body {
  	background: linear-gradient(#00408D,#A952B9,#001B47);
  	text-align: center;
  }
@@ -27,7 +27,7 @@
 h1 {
 	font-size: 60px;
 }
-h2 {
+h2,h3,h4 {
 	font-size: 60px;
 	color: rgba(255, 17, 78, 1.0);
 	text-align: center;
@@ -46,6 +46,9 @@ p {
 img {
 	border-radius: 10px;
 
+}
+.boton {
+    cursor: pointer;
 }
 .imgzoom:hover {
     transition: 1s;
