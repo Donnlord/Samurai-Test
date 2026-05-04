@@ -14,11 +14,7 @@
 }
 .texto {
 	font-family: Impact;
-	position: absolute;
 	color: rgba(100, 42, 94, 1.0);
-	text-align: center;
-	top: 67%;
-	left: 22%;
 }
 .zoom:hover {
 	transition: 2s;
